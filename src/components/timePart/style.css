@@ -1,0 +1,49 @@
+.number
+{  
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+.numberPart
+{
+  min-height: 4vw;
+  min-width: 4vw;
+  border: rgb(58, 57, 57) 10px ;
+  border-style: solid;
+  
+}
+@media screen and (max-width:1400px) {
+  .numberPart
+  { 
+    border-width: 7px ;
+  }
+  .number
+  { 
+    margin: 5px;
+  }
+}
+@media screen and (max-width:700px) {
+  .numberPart
+  { 
+    border-width:  4px ;
+  }
+}
+
+.borderLeft
+{
+  border-left-color: greenyellow;
+}
+.borderRight
+{
+  border-right-color: greenyellow;
+}
+.borderTop
+{
+  border-top-color: greenyellow;
+}
+.borderDown
+{
+  border-bottom-color:greenyellow;
+}
